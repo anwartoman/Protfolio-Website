@@ -1,0 +1,59 @@
+@media screen and (max-width: 1200px){
+.hero{
+    max-height: 65vh;
+}
+.contact form textarea{
+    padding-right: 56px;
+}
+}
+
+@media screen and (max-width: 980px){
+    html{
+        font-size: 17px !important;
+    }
+    .contact form textarea{
+        padding-right: 70px;
+    }
+    .service .grid-container{
+        grid-template-columns: auto auto;
+        grid-row-gap: 15px;
+    }
+    .work .grid-container{
+        grid-template-columns: auto auto;
+    } 
+    
+    .about .grid-container{
+        grid-template-columns: auto !important;
+        grid-row-gap: 40px;
+    }
+    .about{
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 680px){
+    html{
+        font-size: 15px !important;
+    }
+    .contact form textarea{
+        padding-right: 82px;
+    }
+}
+
+@media screen and (max-width :580px){
+    .grid-container{
+        grid-template-columns: auto !important;
+    }
+    .about-me .grid-container{
+        grid-row-gap: 15px;
+    }
+}
+
+
+
+
+
+
+
+
